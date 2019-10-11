@@ -1,7 +1,12 @@
 spring:
   application:
     name: discovery-service
-    
+  cloud:
+    config:
+      discovery:
+        service-id: config-server
+        enabled: true
+        
 # This config will be loaded from the config service
 # eureka:
 #   client:
