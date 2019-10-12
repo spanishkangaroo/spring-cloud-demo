@@ -14,3 +14,10 @@ spring:
 #     fetchRegistry: false
 #     serviceUrl:
 #       defaultZone: http://localhost:8061/eureka
+eureka:
+# No need as we are using default config
+# client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true

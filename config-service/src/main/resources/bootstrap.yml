@@ -10,3 +10,10 @@ spring:
 
            # Search in the 'src/main/resources/config' directory of the repo
            searchPaths: config-service/src/main/resources/config
+eureka:
+# No need as we are using default config
+# client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
