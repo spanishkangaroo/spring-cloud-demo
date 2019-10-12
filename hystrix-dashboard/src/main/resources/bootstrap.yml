@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: hystrix-dashboard
+  cloud:
+    config:
+      discovery:
+        service-id: config-server
+        enabled: true
