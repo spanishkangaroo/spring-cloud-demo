@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: drink-service
+  cloud:
+    config:
+      discovery:
+        service-id: config-server
+        enabled: true
