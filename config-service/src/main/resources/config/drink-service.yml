@@ -1,0 +1,16 @@
+server:
+  port: 8091
+feign:
+  hystrix:
+    enabled: true
+hystrix:
+  metrics:
+    enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+eureka:
+  instance:
+    prefer-ip-address: true
