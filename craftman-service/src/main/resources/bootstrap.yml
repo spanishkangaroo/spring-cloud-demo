@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: craftman-service
+  cloud:
+    config:
+      discovery:
+        service-id: config-server
+        enabled: true
