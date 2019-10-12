@@ -1,2 +1,6 @@
 server:
-	port: 8099
+  port: 8099
+eureka:
+  instance:
+    prefer-ip-address: true
+    
